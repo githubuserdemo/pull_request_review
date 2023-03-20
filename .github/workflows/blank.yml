@@ -19,6 +19,7 @@ jobs:
       - uses: wechuli/actionsutils@v1.1.0
         with:
           tasks: 'context'
+          create-artifact: true
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
